@@ -1,0 +1,10 @@
+{
+  "name": "sublim 1410",
+  "printer": "EPSON Stylus Photo 1410 Series",
+  "icc": "1410 Sublim TKANI photo bumaga",
+  "resolution": 576,
+  "copies": 1,
+  "mirror": true,
+  "delay_seconds": 2,
+  "stop_on_error": true
+}
