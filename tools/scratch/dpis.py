@@ -1,7 +1,7 @@
 ﻿import sys; sys.path.insert(0,".")
 from pathlib import Path
 from print_mcp.runner import collect_files
-for base in [r"Z:\1ПЕЧАТЬ В ПОДВАЛЕ", r"C:\Users\Pod\Desktop\PRINT"]:
+for base in [r"D:\print-samples", r"C:\path\to"]:
     p=Path(base)
     if not p.is_dir(): print("нет папки:", base); continue
     fs = collect_files(base)[:10]
