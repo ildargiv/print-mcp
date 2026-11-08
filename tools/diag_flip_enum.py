@@ -16,7 +16,7 @@ from pathlib import Path
 
 from print_mcp.photoshop import Photoshop
 
-SOURCE = Path(r"Z:\1ПЕЧАТЬ В ПОДВАЛЕ")
+SOURCE = Path(r"D:\print-samples")
 
 SCRIPT = r"""
 #target photoshop
