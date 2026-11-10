@@ -17,8 +17,8 @@ from PIL import Image
 from print_mcp.runner import mirrored_copy
 
 SAMPLES = [
-    Path(r"Z:\1ПЕЧАТЬ В ПОДВАЛЕ\кро.jpg"),
-    Path(r"Z:\1ПЕЧАТЬ В ПОДВАЛЕ\дтф А4 футболка.png"),
+    Path(r"D:\orders\client1\photo.jpg"),
+    Path(r"D:\orders\client1\tshirt-a4.png"),
 ]
 
 
