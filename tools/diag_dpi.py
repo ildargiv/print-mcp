@@ -14,8 +14,8 @@ from pathlib import Path
 
 from PIL import Image
 
-ORIGINAL = Path(r"Z:\1ПЕЧАТЬ В ПОДВАЛЕ\кро.jpg")
-MIRRORED = Path(r"C:\Users\Pod\AppData\Local\Temp\print-mcp-x60x2xu2\m_кро.jpg")
+ORIGINAL = Path(r"D:\orders\client1\photo.jpg")
+MIRRORED = Path(r"D:\orders\client1\mirrored\m_photo.jpg")
 
 
 def describe(label: str, path: Path) -> None:

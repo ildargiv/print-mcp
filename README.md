@@ -150,13 +150,13 @@ print_validate_profile {"name": "sublim 1410"}
 Посмотреть план без печати:
 
 ```
-print_plan {"name": "sublim 1410", "folder": "Z:\\1ПЕЧАТЬ В ПОДВАЛЕ"}
+print_plan {"name": "sublim 1410", "folder": "D:\\orders\\client1"}
 ```
 
 Печатать:
 
 ```
-print_folder {"name": "sublim 1410", "folder": "Z:\\1ПЕЧАТЬ В ПОДВАЛЕ"}
+print_folder {"name": "sublim 1410", "folder": "D:\\orders\\client1"}
 ```
 
 ## Инструменты
@@ -183,8 +183,8 @@ print_folder {"name": "sublim 1410", "folder": "Z:\\1ПЕЧАТЬ В ПОДВА�
 ## Прямой запуск без агента
 
 ```powershell
-cd C:\Users\Pod\Desktop\PRINT\print-mcp
-$env:PYTHONPATH = "C:\Users\Pod\Desktop\PRINT\print-mcp"
+cd C:\path\to\print-mcp
+$env:PYTHONPATH = "C:\path\to\print-mcp"
 python tools\mcp_call.py --list
 python tools\mcp_call.py print_plan "@tools\args_plan.json"
 ```
